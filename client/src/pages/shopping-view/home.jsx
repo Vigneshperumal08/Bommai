@@ -37,7 +37,7 @@ const brandsWithImages = [
   { id: "21", label: "Vinayagar", image: "https://m.media-amazon.com/images/I/91jIN2NIQ-L.jpg" },
   { id: "22", label: "Murugar", image: "https://m.media-amazon.com/images/I/61RCFV1PzaL._AC_UF894,1000_QL80_.jpg" },
   { id: "23", label: "Amman", image: "https://m.media-amazon.com/images/I/61TYxwXdPlL.jpg" },
-  { id: "24", label: "Krushnar", image: "https://i.etsystatic.com/19168989/r/il/b47dc5/5681449398/il_570xN.5681449398_fn9x.jpg" },
+  { id: "24", label: "Krishna", image: "https://i.etsystatic.com/19168989/r/il/b47dc5/5681449398/il_570xN.5681449398_fn9x.jpg" },
   { id: "25", label: "Saraswathi", image: "https://artehouse.in/cdn/shop/files/SARASWATHI-STATUE-IN-POLYMARBLE-INDOOR.jpg?v=1706536466" },
   { id: "26", label: "Lakshmi", image: "https://m.media-amazon.com/images/I/61hw1ZD3tiL.jpg" },
   { id: "27", label: "Shivan", image: "https://www.lladro.com/media/catalog/product/cache/c663c9190a9709136d2f86eddaea803b/f/2/f2bd728e126372e3e4e34fa13683c5fb48deb11ae992e7b48c2fc6009f32164ec3ffa20b617010064f18964da84873fff327f92b32d59fc41d9b8d8618f4ab5c.jpg" },
