@@ -13,7 +13,7 @@ export const addToCart = createAsyncThunk(
   async ({ userId, productId, quantity }, { rejectWithValue }) => {
     try {
       const response = await axios.post(
-        "https://bommai-1.onrender.com/api/shop/cart/add",
+        "https://bommaikaran-labs.onrender.com/api/shop/cart/add",
         {
           userId,
           productId,
@@ -33,7 +33,7 @@ export const fetchCartItems = createAsyncThunk(
   async (userId, { rejectWithValue }) => {
     try {
       const response = await axios.get(
-        `https://bommai-1.onrender.com/api/shop/cart/get/${userId}`
+        `https://bommaikaran-labs.onrender.com/api/shop/cart/get/${userId}`
       );
       return response.data;
     } catch (error) {
@@ -51,7 +51,7 @@ export const deleteCartItem = createAsyncThunk(
   async ({ userId, productId }, { rejectWithValue }) => {
     try {
       const response = await axios.delete(
-        `https://bommai-1.onrender.com/api/shop/cart/${userId}/${productId}`
+        `https://bommaikaran-labs.onrender.com/api/shop/cart/${userId}/${productId}`
       );
       return response.data;
     } catch (error) {
@@ -66,7 +66,7 @@ export const updateCartQuantity = createAsyncThunk(
   async ({ userId, productId, quantity }, { rejectWithValue }) => {
     try {
       const response = await axios.put(
-        "https://bommai-1.onrender.com/api/shop/cart/update-cart",
+        "https://bommaikaran-labs.onrender.com/api/shop/cart/update-cart",
         {
           userId,
           productId,
