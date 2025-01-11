@@ -10,7 +10,7 @@ export const getFeatureImages = createAsyncThunk(
   "/order/getFeatureImages",
   async () => {
     const response = await axios.get(
-      `https://bommai-1.onrender.com/api/common/feature/get`
+      `https://bommaikaran-labs.onrender.com/api/common/feature/get`
     );
 
     return response.data;
@@ -21,7 +21,7 @@ export const addFeatureImage = createAsyncThunk(
   "/order/addFeatureImage",
   async (image) => {
     const response = await axios.post(
-      `https://bommai-1.onrender.com/api/common/feature/add`,
+      `https://bommaikaran-labs.onrender.com/api/common/feature/add`,
       { image }
     );
 
