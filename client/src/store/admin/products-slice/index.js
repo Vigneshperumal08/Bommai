@@ -10,7 +10,7 @@ export const addNewProduct = createAsyncThunk(
   "/products/addnewproduct",
   async (formData) => {
     const result = await axios.post(
-      "http://localhost:5000/api/admin/products/add",
+      "https://bommai-1.onrender.com/api/admin/products/add",
       formData,
       {
         headers: {
@@ -38,7 +38,7 @@ export const editProduct = createAsyncThunk(
   "/products/editProduct",
   async ({ id, formData }) => {
     const result = await axios.put(
-      `http://localhost:5000/api/admin/products/edit/${id}`,
+      `https://bommai-1.onrender.com/api/admin/products/edit/${id}`,
       formData,
       {
         headers: {
@@ -55,7 +55,7 @@ export const deleteProduct = createAsyncThunk(
   "/products/deleteProduct",
   async (id) => {
     const result = await axios.delete(
-      `http://localhost:5000/api/admin/products/delete/${id}`
+      `https://bommai-1.onrender.com/api/admin/products/delete/${id}`
     );
 
     return result?.data;
